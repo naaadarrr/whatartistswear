@@ -45,7 +45,7 @@ export default function App() {
   );
 
   return (
-    <div className="w-full h-screen bg-paper text-ink relative overflow-hidden font-sans">
+    <div className="w-full h-screen text-ink relative overflow-hidden font-sans">
       <AnimatePresence mode="wait">
         {viewMode === ViewMode.GRID && (
           <HomePage

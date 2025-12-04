@@ -16,7 +16,7 @@ const GridNavigation: React.FC<GridNavigationProps> = ({ artists, currentArtistI
         <button
           onClick={() => onSelect('GRID')}
           className={clsx(
-            "h-12 px-2 flex items-center justify-center border-2 border-ink text-base font-black uppercase tracking-wider transition-colors duration-200 pointer-events-auto -mr-[2px] -mb-[2px]",
+            "h-8 px-2 flex items-center justify-center border-2 border-ink text-base font-black uppercase tracking-wider transition-colors duration-200 pointer-events-auto -mr-[2px] -mb-[2px]",
             !currentArtistId
               ? "bg-ink text-white"
               : "bg-white text-ink hover:bg-ink hover:text-white"
@@ -32,7 +32,7 @@ const GridNavigation: React.FC<GridNavigationProps> = ({ artists, currentArtistI
               key={artist.id}
               onClick={() => onSelect(artist.id)}
               className={clsx(
-                "h-12 px-2 flex items-center justify-center border-2 border-ink text-base font-black uppercase tracking-wider transition-colors duration-200 pointer-events-auto -mr-[2px] -mb-[2px]",
+                "h-8 px-2 flex items-center justify-center border-2 border-ink text-base font-black uppercase tracking-wider transition-colors duration-200 pointer-events-auto -mr-[2px] -mb-[2px]",
                 isActive
                   ? "bg-ink text-white"
                   : "bg-white text-ink hover:bg-ink hover:text-white"

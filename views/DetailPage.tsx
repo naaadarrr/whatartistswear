@@ -15,7 +15,7 @@ const DetailPage: React.FC<DetailPageProps> = ({ artist, onBack, onNavigate }) =
 
   return (
     <motion.div
-      className="flex flex-col h-full w-full bg-paper overflow-hidden relative"
+      className="flex flex-col h-full w-full overflow-hidden relative"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}

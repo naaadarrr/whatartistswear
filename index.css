@@ -1,0 +1,10 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  background: image-set(url("/assets/noise500.png") 1x,
+      url("/assets/noise734.png") 2x) repeat 0 0 / 300px 300px, #FFFFFF;
+}
